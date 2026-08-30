@@ -1,4 +1,4 @@
-# VocabSAT v0.2.1
+# VocabSAT v0.2.4
 
 A local-first SAT vocabulary coaching prototype based on the supplied project transcript.
 
@@ -22,7 +22,7 @@ A local-first SAT vocabulary coaching prototype based on the supplied project tr
 ## Dependency note
 This release is aligned to Expo SDK 57. Expo SDK 57 uses React 19.2.3 and React Native 0.86, with React Native Web 0.21.0. React DOM is pinned to 19.2.3 so npm does not select a newer incompatible React DOM release.
 
-If you previously tried to install v0.2, do not reuse its old `node_modules` folder or `package-lock.json`. After replacing the project with v0.2.1, run:
+If you previously tried to install v0.2, do not reuse its old `node_modules` folder or `package-lock.json`. After replacing the project with v0.2.4, run:
 
 ```bash
 rm -rf node_modules package-lock.json
