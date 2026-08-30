@@ -1,0 +1,4 @@
+import { Tabs } from 'expo-router';
+import { StyleSheet, Text } from 'react-native';
+export default function TabsLayout() { return <Tabs screenOptions={{ headerShown:false, tabBarActiveTintColor:'#2E5BFF', tabBarLabelStyle:{fontSize:12}, tabBarStyle:{height:68,paddingTop:8,paddingBottom:10} }}><Tabs.Screen name="index" options={{title:'Home',tabBarIcon:({color})=><Text style={{color,fontSize:18}}>⌂</Text>}}/><Tabs.Screen name="learn" options={{title:'Learn',tabBarIcon:({color})=><Text style={{color,fontSize:18}}>▤</Text>}}/><Tabs.Screen name="quiz" options={{title:'Quiz',tabBarIcon:({color})=><Text style={{color,fontSize:18}}>?</Text>}}/><Tabs.Screen name="progress" options={{title:'Stats',tabBarIcon:({color})=><Text style={{color,fontSize:18}}>◒</Text>}}/></Tabs>; }
+const styles=StyleSheet.create({});
