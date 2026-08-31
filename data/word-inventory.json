@@ -1,0 +1,3774 @@
+{
+ "note": "Vetted SAT/ACT vocabulary inventory: words, grouping, tier and provenance. Definitions, examples and quiz items are authored separately.",
+ "tiers": {
+  "1": "must-know",
+  "2": "should-know",
+  "3": "stretch"
+ },
+ "sources": [
+  "Current deck (src/vocab.ts)",
+  "Academic Word List (Coxhead 2000) sublists 1-6, curated to drop domain nouns and words too common to test",
+  "Stance/tone, transition-logic and multiple-meaning sets - categories the AWL does not cover but both tests rely on"
+ ],
+ "counts": {
+  "total": 368,
+  "byTier": {
+   "1": 208,
+   "2": 96,
+   "3": 64
+  },
+  "byGroup": {
+   "core-academic": 168,
+   "sat-act-staple": 64,
+   "current-deck": 55,
+   "stance-tone": 39,
+   "multi-meaning": 26,
+   "transition-logic": 16
+  },
+  "alreadyAuthored": 55,
+  "toAuthor": 313
+ },
+ "words": [
+  {
+   "word": "acquire",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "appropriate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "aspect",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "assess",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "assume",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "compensate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "complex",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "component",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "concept",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "conclude",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "consequent",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "considerable",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "consist",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "constant",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "constitute",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "constrain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "construct",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "consume",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "context",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "contribute",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "correspond",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "criteria",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "deduce",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "demonstrate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "derive",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "distinct",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "distribute",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "dominate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "element",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "emphasis",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "ensure",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "equate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "establish",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "estimate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "evaluate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "evident",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "exclude",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "factor",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "identify",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "illustrate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "impact",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "imply",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "indicate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "initial",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "instance",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "interpret",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "involve",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "justify",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "maintain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "negate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "obtain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "outcome",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "perceive",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "potential",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "previous",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "primary",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "principle",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "proceed",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "proportion",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "react",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "register",
+   "group": "core-academic",
+   "groups": [
+    "core-academic",
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "regulate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "relevant",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "rely",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "restrict",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S2",
+   "inApp": false
+  },
+  {
+   "word": "sequence",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "shift",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "significant",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "specify",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "sufficient",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "valid",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S3",
+   "inApp": false
+  },
+  {
+   "word": "vary",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 1,
+   "source": "AWL-S1",
+   "inApp": false
+  },
+  {
+   "word": "abate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 88
+  },
+  {
+   "word": "advocate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 88
+  },
+  {
+   "word": "ambiguous",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 93
+  },
+  {
+   "word": "arbitrary",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 91
+  },
+  {
+   "word": "coherent",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 89
+  },
+  {
+   "word": "compelling",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "concise",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 82
+  },
+  {
+   "word": "conspicuous",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 79
+  },
+  {
+   "word": "contradict",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 91
+  },
+  {
+   "word": "conventional",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 80
+  },
+  {
+   "word": "corroborate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 94
+  },
+  {
+   "word": "cumulative",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 86
+  },
+  {
+   "word": "deteriorate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 87
+  },
+  {
+   "word": "diminish",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "discrete",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 78
+  },
+  {
+   "word": "elicit",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 89
+  },
+  {
+   "word": "empirical",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "equivocal",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 87
+  },
+  {
+   "word": "exacerbate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 95
+  },
+  {
+   "word": "explicit",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 84
+  },
+  {
+   "word": "facilitate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "feasible",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 88
+  },
+  {
+   "word": "fundamental",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 86
+  },
+  {
+   "word": "hypothesis",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "impede",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 89
+  },
+  {
+   "word": "inconsistent",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 90
+  },
+  {
+   "word": "inherent",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 92
+  },
+  {
+   "word": "inhibit",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 88
+  },
+  {
+   "word": "innovative",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 88
+  },
+  {
+   "word": "integral",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 89
+  },
+  {
+   "word": "meticulous",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 85
+  },
+  {
+   "word": "mitigate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 95
+  },
+  {
+   "word": "novel",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 86
+  },
+  {
+   "word": "nuance",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 84
+  },
+  {
+   "word": "pragmatic",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 85
+  },
+  {
+   "word": "precise",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 85
+  },
+  {
+   "word": "predominant",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 84
+  },
+  {
+   "word": "profound",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 83
+  },
+  {
+   "word": "reconcile",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 92
+  },
+  {
+   "word": "refute",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 93
+  },
+  {
+   "word": "reluctant",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 76
+  },
+  {
+   "word": "rigorous",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 89
+  },
+  {
+   "word": "salient",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 83
+  },
+  {
+   "word": "scrupulous",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 80
+  },
+  {
+   "word": "scrutinize",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 91
+  },
+  {
+   "word": "sporadic",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 78
+  },
+  {
+   "word": "subsequent",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 84
+  },
+  {
+   "word": "substantiate",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 94
+  },
+  {
+   "word": "subtle",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 81
+  },
+  {
+   "word": "tentative",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 87
+  },
+  {
+   "word": "transcend",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 82
+  },
+  {
+   "word": "undermine",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 93
+  },
+  {
+   "word": "unprecedented",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 83
+  },
+  {
+   "word": "versatile",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 77
+  },
+  {
+   "word": "viable",
+   "group": "current-deck",
+   "groups": [
+    "current-deck"
+   ],
+   "tier": 1,
+   "source": "already authored in src/vocab.ts",
+   "inApp": true,
+   "appPriority": 92
+  },
+  {
+   "word": "address",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "appreciate",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "arrest",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "bearing",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "capacity",
+   "group": "multi-meaning",
+   "groups": [
+    "core-academic",
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "check",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "coin",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "compound",
+   "group": "multi-meaning",
+   "groups": [
+    "core-academic",
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "court",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "economy",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "fashion",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "grave",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "harbor",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "plot",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "project",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "qualify",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "reservation",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "reserve",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "sanction",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "second",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "sound",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "spare",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "subject",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "table",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "temper",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "yield",
+   "group": "multi-meaning",
+   "groups": [
+    "multi-meaning"
+   ],
+   "tier": 1,
+   "source": "multiple-meaning set",
+   "inApp": false
+  },
+  {
+   "word": "aloof",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "ambivalent",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "appreciative",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "apprehensive",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "candid",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "complacent",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "condescending",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "contemptuous",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "cynical",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "deferential",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "defiant",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "detached",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "dismissive",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "earnest",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "emphatic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "exuberant",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "impartial",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "incredulous",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "indifferent",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "indignant",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "ironic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "melancholy",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "nonchalant",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "nostalgic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "optimistic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "pessimistic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "remorseful",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "resigned",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "reverent",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "sardonic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "scornful",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "sincere",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "skeptical",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "solemn",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "somber",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "sympathetic",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "vindictive",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "wary",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "whimsical",
+   "group": "stance-tone",
+   "groups": [
+    "stance-tone"
+   ],
+   "tier": 1,
+   "source": "stance/tone set",
+   "inApp": false
+  },
+  {
+   "word": "accordingly",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "albeit",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "alternatively",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "consequently",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "conversely",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "furthermore",
+   "group": "transition-logic",
+   "groups": [
+    "core-academic",
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "henceforth",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "likewise",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "moreover",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "nevertheless",
+   "group": "transition-logic",
+   "groups": [
+    "core-academic",
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "nonetheless",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "notwithstanding",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "regardless",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "thereby",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "ultimately",
+   "group": "transition-logic",
+   "groups": [
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "whereas",
+   "group": "transition-logic",
+   "groups": [
+    "core-academic",
+    "transition-logic"
+   ],
+   "tier": 1,
+   "source": "transition set",
+   "inApp": false
+  },
+  {
+   "word": "abstract",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "accurate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "acknowledge",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "adequate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "adjust",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "aggregate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "allocate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "alter",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "amend",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "apparent",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "assign",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "attach",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "attribute",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "aware",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "brief",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "capable",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "cite",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "commit",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "concentrate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "confer",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "conflict",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "contrast",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "cooperate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "debate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "decline",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "despite",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "dimension",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "discriminate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "diverse",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "domain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "emerge",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "enable",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "enforce",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "enhance",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "equivalent",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "evolve",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "exceed",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "expand",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "expose",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "external",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "flexible",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "generate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "grant",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "hence",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "ignorant",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "implement",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "implicate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "impose",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "incentive",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "incorporate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "initiate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "instruct",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "integrate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "internal",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "interval",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "investigate",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "logic",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "margin",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "mechanism",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "modify",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "monitor",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "motive",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "neutral",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "notion",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "objective",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "obvious",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "option",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "overall",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "parallel",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "perspective",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "phase",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "precede",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "predict",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "presume",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "prime",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "principal",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "prior",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "promote",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "pursue",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "rational",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "recover",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "reject",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "resolve",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "retain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "reveal",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "scope",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "stable",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "status",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "stress",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "substitute",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "sustain",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "trace",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "transform",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "trend",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S5",
+   "inApp": false
+  },
+  {
+   "word": "underlie",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S6",
+   "inApp": false
+  },
+  {
+   "word": "undertake",
+   "group": "core-academic",
+   "groups": [
+    "core-academic"
+   ],
+   "tier": 2,
+   "source": "AWL-S4",
+   "inApp": false
+  },
+  {
+   "word": "analogous",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "anomaly",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "articulate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "assert",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "augment",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "autonomous",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "concede",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "condone",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "contend",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "culminate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "deplete",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "deter",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "deviate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "discern",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "disparate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "dispel",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "disseminate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "elucidate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "endorse",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "enumerate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "ephemeral",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "exemplify",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "exhaustive",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "extrapolate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "implicit",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "infer",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "intrinsic",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "juxtapose",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "lucid",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "mundane",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "negligible",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "nominal",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "obscure",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "obsolete",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "paradigm",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "paradox",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "partisan",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "perpetuate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "pertinent",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "phenomenon",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "plausible",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "preclude",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "prevalent",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "proliferate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "prudent",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "quantify",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "reciprocal",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "redundant",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "reinforce",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "reiterate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "relinquish",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "resilient",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "speculate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "static",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "stipulate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "superficial",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "supplant",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "synthesize",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "tangible",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "threshold",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "ubiquitous",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "validate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "vindicate",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  },
+  {
+   "word": "warrant",
+   "group": "sat-act-staple",
+   "groups": [
+    "sat-act-staple"
+   ],
+   "tier": 3,
+   "source": "SAT/ACT staple (non-AWL)",
+   "inApp": false
+  }
+ ]
+}
