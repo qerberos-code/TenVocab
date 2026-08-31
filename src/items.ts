@@ -1,6 +1,6 @@
 import { Word } from './vocab';
 
-export type ItemForm = 'context' | 'wordToDef' | 'defToWord' | 'cloze' | 'synonym';
+export type ItemForm = 'context' | 'wordToDef' | 'defToWord' | 'cloze' | 'synonym' | 'senseShift';
 export type Item = { form: ItemForm; prompt: string; label: string; choices: string[]; answer: string; explanation: string };
 
 // deterministic PRNG so a given (word, encounter) always renders the same item
@@ -27,16 +27,27 @@ const clozeFrom = (w: Word): string | null => {
   return re.test(w.example) ? w.example.replace(re, '_____') : null;
 };
 
-const FORMS: ItemForm[] = ['context', 'wordToDef', 'cloze', 'defToWord', 'synonym'];
+const FORMS: ItemForm[] = ['context', 'senseShift', 'wordToDef', 'cloze', 'defToWord', 'synonym'];
 
 export function buildItem(w: Word, all: Word[], encounter: number): Item {
   const rand = rng(hash(w.id + ':' + encounter));
   const others = pool(w, all);
-  const order = FORMS.slice(encounter % FORMS.length).concat(FORMS.slice(0, encounter % FORMS.length));
+  // only offer senseShift for words that actually carry a second sense, so the
+  // rotation stays even instead of a skipped slot doubling the next form
+  const avail = FORMS.filter(f => f !== 'senseShift' || (w.altDefinition && w.altExample));
+  const k = encounter % avail.length;
+  const order = avail.slice(k).concat(avail.slice(0, k));
 
   for (const form of order) {
     if (form === 'context') {
       return { form, label: 'Words in Context', prompt: w.question, choices: shuffle(w.choices, rand), answer: w.answer, explanation: w.explanation };
+    }
+    if (form === 'senseShift') {
+      // the digital SAT's signature move: a familiar word carrying its less common sense
+      if (!w.altDefinition || !w.altExample) continue;
+      const d = pick(others, 2, rand).map(o => o.definition);
+      if (d.length < 2) continue;
+      return { form, label: 'Second Meaning', prompt: `${w.altExample}\n\nAs used in this sentence, "${w.word}" most nearly means:`, choices: shuffle([w.altDefinition, w.definition, ...d], rand), answer: w.altDefinition, explanation: `Here ${w.word} means ${w.altDefinition}. Its more familiar sense, ${w.definition}, does not fit this sentence.` };
     }
     if (form === 'wordToDef') {
       const d = pick(others, 3, rand).map(o => o.definition);

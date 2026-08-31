@@ -25,8 +25,8 @@
    "multi-meaning": 26,
    "transition-logic": 16
   },
-  "alreadyAuthored": 94,
-  "toAuthor": 274
+  "alreadyAuthored": 120,
+  "toAuthor": 248
  },
  "words": [
   {
@@ -1363,7 +1363,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "appreciate",
@@ -1373,7 +1373,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "arrest",
@@ -1383,7 +1383,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "bearing",
@@ -1393,7 +1393,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "capacity",
@@ -1404,7 +1404,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "check",
@@ -1414,7 +1414,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "coin",
@@ -1424,7 +1424,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "compound",
@@ -1435,7 +1435,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "court",
@@ -1445,7 +1445,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "economy",
@@ -1455,7 +1455,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "fashion",
@@ -1465,7 +1465,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "grave",
@@ -1475,7 +1475,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "harbor",
@@ -1485,7 +1485,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "plot",
@@ -1495,7 +1495,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "project",
@@ -1505,7 +1505,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "qualify",
@@ -1515,7 +1515,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "reservation",
@@ -1525,7 +1525,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "reserve",
@@ -1535,7 +1535,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "sanction",
@@ -1545,7 +1545,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "second",
@@ -1555,7 +1555,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "sound",
@@ -1565,7 +1565,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "spare",
@@ -1575,7 +1575,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "subject",
@@ -1585,7 +1585,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "table",
@@ -1595,7 +1595,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "temper",
@@ -1605,7 +1605,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "yield",
@@ -1615,7 +1615,7 @@
    ],
    "tier": 1,
    "source": "multiple-meaning set",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "aloof",
