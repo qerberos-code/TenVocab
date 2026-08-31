@@ -15,6 +15,9 @@
       "bundleIdentifier": "com.qerberos.wordwise",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
       }
     },
     "android": {
