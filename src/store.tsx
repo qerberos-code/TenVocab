@@ -19,6 +19,11 @@ type Store = {
   resetDemo: () => void;
 };
 
+export const isDue = (s?: { nextReview: number | null; incorrect: number }) => {
+  const n = s?.nextReview;
+  return (n === null || n === undefined) ? (s?.incorrect ?? 0) > 0 : n <= Date.now();
+};
+
 const emptyStats = (): Stats => Object.fromEntries(VOCAB.map(w => [w.id, { seen: 0, correct: 0, incorrect: 0, mastery: 0, nextReview: null }]));
 const Ctx = createContext<Store | null>(null);
 const KEY = 'vocabsat-state-v2';
