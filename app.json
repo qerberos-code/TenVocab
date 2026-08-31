@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "VocabSAT",
-    "slug": "vocabsat",
+    "name": "Wordwise",
+    "slug": "wordwise",
     "version": "0.2.4",
     "orientation": "portrait",
-    "scheme": "vocabsat",
+    "scheme": "wordwise",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "plugins": [
@@ -12,13 +12,13 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.qerberos.vocabsat",
+      "bundleIdentifier": "com.qerberos.wordwise",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.qerberos.vocabsat",
+      "package": "com.qerberos.wordwise",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F7F7F4"
@@ -37,7 +37,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "d5008f2f-7291-4a06-8655-aa4a5c227214"
+        "projectId": "04cd5926-dea2-4fca-8fda-d00f5d132c97"
       }
     },
     "owner": "chentail"
