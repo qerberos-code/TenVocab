@@ -13,11 +13,12 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.qerberos.vocabsat",
-      "buildNumber": "1"
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.qerberos.vocabsat",
-      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F7F7F4"
@@ -32,6 +33,13 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#F7F7F4"
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d5008f2f-7291-4a06-8655-aa4a5c227214"
+      }
+    },
+    "owner": "chentail"
   }
 }
