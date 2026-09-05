@@ -1,4 +1,4 @@
-# Wordwise v0.2.4
+# TenWords v0.2.4
 
 A local-first SAT vocabulary coaching prototype based on the supplied project transcript.
 

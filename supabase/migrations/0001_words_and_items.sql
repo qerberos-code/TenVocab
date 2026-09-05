@@ -1,4 +1,4 @@
--- Wordwise — Supabase schema (its own project; unrelated to pbcindex).
+-- TenWords — Supabase schema (its own project; unrelated to pbcindex).
 -- Run in: Supabase Dashboard → SQL Editor → paste → Run.
 -- Mirrors the Word type in src/vocab.ts.
 

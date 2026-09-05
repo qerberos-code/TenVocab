@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Wordwise",
+    "name": "TenWords",
     "slug": "wordwise",
     "version": "0.2.4",
     "orientation": "portrait",
-    "scheme": "wordwise",
+    "scheme": "tenwords",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "plugins": [
