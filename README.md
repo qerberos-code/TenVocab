@@ -1,4 +1,4 @@
-# Ten Vocab v0.2.4
+# Ten Vocab v1.0
 
 A local-first SAT vocabulary coaching prototype based on the supplied project transcript.
 
@@ -22,7 +22,7 @@ A local-first SAT vocabulary coaching prototype based on the supplied project tr
 ## Dependency note
 This release is aligned to Expo SDK 54, which is the SDK supported by the Expo Go build currently published on the App Store (54.0.2). Expo Go supports only one SDK at a time, so the project must match it. Expo SDK 54 uses React 19.1.0 and React Native 0.81.5, with React Native Web 0.21.0. React DOM is pinned to 19.1.0 so npm does not select a newer incompatible React DOM release.
 
-If you previously tried to install v0.2, do not reuse its old `node_modules` folder or `package-lock.json`. After replacing the project with v0.2.4, run:
+If you previously tried to install v0.2, do not reuse its old `node_modules` folder or `package-lock.json`. After replacing the project with v1.0, run:
 
 ```bash
 rm -rf node_modules package-lock.json

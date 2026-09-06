@@ -2,7 +2,7 @@
   "expo": {
     "name": "Ten Vocab",
     "slug": "wordwise",
-    "version": "0.2.4",
+    "version": "1.0",
     "orientation": "portrait",
     "scheme": "tenwords",
     "userInterfaceStyle": "light",
