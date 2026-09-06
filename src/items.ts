@@ -50,12 +50,12 @@ export function buildItem(w: Word, all: Word[], encounter: number): Item {
       return { form, label: 'Second Meaning', prompt: `${w.altExample}\n\nAs used in this sentence, "${w.word}" most nearly means:`, choices: shuffle([w.altDefinition, w.definition, ...d], rand), answer: w.altDefinition, explanation: `Here ${w.word} means ${w.altDefinition}. Its more familiar sense, ${w.definition}, does not fit this sentence.` };
     }
     if (form === 'wordToDef') {
-      const d = pick(others, 3, rand).map(o => o.definition);
+      const d = [...new Set(pick(others, 6, rand).map(o => o.definition))].filter(x => x !== w.definition).slice(0, 3);
       if (d.length < 3) continue;
       return { form, label: 'Meaning', prompt: `What does "${w.word}" mean?`, choices: shuffle([w.definition, ...d], rand), answer: w.definition, explanation: `${w.word} means ${w.definition}.` };
     }
     if (form === 'defToWord') {
-      const d = pick(others, 3, rand).map(o => o.word);
+      const d = [...new Set(pick(others, 6, rand).map(o => o.word))].slice(0, 3);
       if (d.length < 3) continue;
       return { form, label: 'Recall', prompt: `Which word means "${w.definition}"?`, choices: shuffle([w.word, ...d], rand), answer: w.word, explanation: `${w.word} means ${w.definition}.` };
     }
@@ -67,7 +67,9 @@ export function buildItem(w: Word, all: Word[], encounter: number): Item {
     }
     if (form === 'synonym') {
       const correct = w.synonyms[Math.floor(rand() * w.synonyms.length)];
-      const d = pick(others, 3, rand).map(o => o.synonyms[0]).filter(Boolean);
+      // two unrelated words can share a first synonym (consequently/accordingly -> "therefore"),
+      // so draw a wider pool and de-duplicate before taking three
+      const d = [...new Set(pick(others, 9, rand).map(o => o.synonyms[0]).filter(x => x && x !== correct && !w.synonyms.includes(x)))].slice(0, 3);
       if (!correct || d.length < 3) continue;
       return { form, label: 'Nuance', prompt: `Which is closest in meaning to "${w.word}"?`, choices: shuffle([correct, ...d], rand), answer: correct, explanation: `${w.word} means ${w.definition}, so ${correct} is closest.` };
     }
