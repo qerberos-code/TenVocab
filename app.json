@@ -1,15 +1,48 @@
 {
   "expo": {
-    "name": "VocabSAT",
-    "slug": "vocabsat",
-    "version": "0.2.4",
+    "name": "Ten Vocab",
+    "slug": "wordwise",
+    "version": "1.0",
     "orientation": "portrait",
-    "scheme": "vocabsat",
+    "scheme": "tenwords",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "plugins": ["expo-router"],
-    "ios": { "supportsTablet": true },
-    "android": { "adaptiveIcon": { "backgroundColor": "#F7F7F4" } },
-    "web": { "bundler": "metro", "output": "single" }
+    "plugins": [
+      "expo-router"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.qerberos.wordwise",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.qerberos.wordwise",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F7F7F4"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F7F4"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "04cd5926-dea2-4fca-8fda-d00f5d132c97"
+      }
+    },
+    "owner": "chentail"
   }
 }
