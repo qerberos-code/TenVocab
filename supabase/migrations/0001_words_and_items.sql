@@ -89,5 +89,11 @@ drop policy if exists items_public_read on items;
 create policy items_public_read on items
   for select using (active);
 
+-- Grant the Data API roles read access explicitly, so this works with Supabase's
+-- "automatically expose new tables" setting turned off (their recommended default).
+-- RLS above still limits them to active rows; writes stay service_role only.
+grant usage on schema public to anon, authenticated;
+grant select on words, items to anon, authenticated;
+
 -- Progress sync, if it is ever added, belongs in its own tables keyed by
 -- auth.uid() with their own policies. Nothing above needs to change for it.
