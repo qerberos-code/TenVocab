@@ -16,7 +16,7 @@ Practice questions rotate through six formats, so coming back to a word tests th
 Words you struggle with come back sooner. Words you know come back later. Your streak, mastery, and weakest words are always one tap away.
 
 PRIVATE BY DESIGN
-There are no accounts and no sign-in. Progress is stored only on your device. The app makes no network requests and contains no advertising or analytics.
+There are no accounts and no sign-in. Progress is stored only on your device. The app contains no advertising or analytics. The one thing it ever sends is optional: if you tap "I saw this on the SAT" on a word, that word and the date you choose are shared so other learners can see which words have appeared on real tests. Nothing that identifies you is sent.
 
 ORIGINAL CONTENT
 All vocabulary, practice questions, and explanations are original. Ten Vocab does not reproduce questions from any official test. It is designed for students preparing for college admissions tests, and for anyone who wants a stronger academic vocabulary. Ten Vocab is not affiliated with, endorsed by, or sponsored by the College Board or ACT, Inc.
@@ -33,14 +33,15 @@ Privacy Policy URL:  https://wordwise.expo.app/privacy
 
 ## Category            Primary: Education     Secondary: Reference
 
-## App Privacy (nutrition label)
-"Data Not Collected" — select this for every category. Nothing leaves the device.
+## App Privacy (nutrition label) — CHANGED for the build with "Seen on the SAT"
+Yes, we collect data → **User Content → Other User Content** → used for **App Functionality** →
+**Not linked to the user's identity** → not used for tracking. Nothing else is collected.
 
 ## App Review Information
 Sign-in required:  NO (leave unchecked — there is no login)
 Notes:
-  No account is needed. Everything is stored on-device; the app makes no network
-  requests. All vocabulary and questions are original content; the app is not
+  No account is needed. Progress is stored on-device. The only network use is an
+  optional, anonymous "I saw this on the SAT" report (word + date, no identifiers). All vocabulary and questions are original content; the app is not
   affiliated with the College Board or ACT, Inc. To exercise the app: tap START
   TODAY'S 10, work through ten learn cards, answer the ten questions, then open
   the Stats tab.
