@@ -15,10 +15,18 @@
       },
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://xxybbiadtrpflzcmeubo.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_oT0kbgeIm3qkfIkaew6Liw_T_v0CtzO"
       }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://xxybbiadtrpflzcmeubo.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_oT0kbgeIm3qkfIkaew6Liw_T_v0CtzO"
+      }
     }
   },
   "submit": {

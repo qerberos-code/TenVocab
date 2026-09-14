@@ -17,3 +17,5 @@ yarn-error.*
 .vercel
 .env*
 !.env.example
+*.ipa
+*.tar.gz
