@@ -8,12 +8,13 @@
  "sources": [
   "Current deck (src/vocab.ts)",
   "Academic Word List (Coxhead 2000) sublists 1-6, curated to drop domain nouns and words too common to test",
-  "Stance/tone, transition-logic and multiple-meaning sets - categories the AWL does not cover but both tests rely on"
+  "Stance/tone, transition-logic and multiple-meaning sets - categories the AWL does not cover but both tests rely on",
+  "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)"
  ],
  "counts": {
-  "total": 368,
+  "total": 421,
   "byTier": {
-   "1": 208,
+   "1": 261,
    "2": 96,
    "3": 64
   },
@@ -21,12 +22,13 @@
    "core-academic": 168,
    "sat-act-staple": 64,
    "current-deck": 55,
+   "dsat-essentials": 53,
    "stance-tone": 39,
    "multi-meaning": 26,
    "transition-logic": 16
   },
-  "alreadyAuthored": 136,
-  "toAuthor": 232
+  "alreadyAuthored": 199,
+  "toAuthor": 222
  },
  "words": [
   {
@@ -513,11 +515,12 @@
    "word": "maintain",
    "group": "core-academic",
    "groups": [
-    "core-academic"
+    "core-academic",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "AWL-S2",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "negate",
@@ -765,7 +768,8 @@
    "word": "advocate",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -809,7 +813,8 @@
    "word": "compelling",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -853,7 +858,8 @@
    "word": "conventional",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -864,7 +870,8 @@
    "word": "corroborate",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -963,7 +970,8 @@
    "word": "explicit",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -974,7 +982,8 @@
    "word": "facilitate",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -985,7 +994,8 @@
    "word": "feasible",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -996,7 +1006,8 @@
    "word": "fundamental",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1051,7 +1062,8 @@
    "word": "inhibit",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1095,7 +1107,8 @@
    "word": "mitigate",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1106,7 +1119,8 @@
    "word": "novel",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1128,7 +1142,8 @@
    "word": "pragmatic",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1183,7 +1198,8 @@
    "word": "refute",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1194,7 +1210,8 @@
    "word": "reluctant",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1238,7 +1255,8 @@
    "word": "scrutinize",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1271,7 +1289,8 @@
    "word": "substantiate",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1293,7 +1312,8 @@
    "word": "tentative",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1315,7 +1335,8 @@
    "word": "undermine",
    "group": "current-deck",
    "groups": [
-    "current-deck"
+    "current-deck",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "already authored in src/vocab.ts",
@@ -1511,7 +1532,8 @@
    "word": "qualify",
    "group": "multi-meaning",
    "groups": [
-    "multi-meaning"
+    "multi-meaning",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "multiple-meaning set",
@@ -1521,7 +1543,8 @@
    "word": "reservation",
    "group": "multi-meaning",
    "groups": [
-    "multi-meaning"
+    "multi-meaning",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "multiple-meaning set",
@@ -1631,7 +1654,8 @@
    "word": "ambivalent",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1651,7 +1675,8 @@
    "word": "apprehensive",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1781,7 +1806,8 @@
    "word": "impartial",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1801,7 +1827,8 @@
    "word": "indifferent",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1811,7 +1838,8 @@
    "word": "indignant",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1821,7 +1849,8 @@
    "word": "ironic",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1861,7 +1890,8 @@
    "word": "optimistic",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1871,7 +1901,8 @@
    "word": "pessimistic",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1891,7 +1922,8 @@
    "word": "resigned",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -1941,7 +1973,8 @@
    "word": "skeptical",
    "group": "stance-tone",
    "groups": [
-    "stance-tone"
+    "stance-tone",
+    "dsat-essentials"
    ],
    "tier": 1,
    "source": "stance/tone set",
@@ -2814,11 +2847,12 @@
    "word": "objective",
    "group": "core-academic",
    "groups": [
-    "core-academic"
+    "core-academic",
+    "dsat-essentials"
    ],
    "tier": 2,
    "source": "AWL-S5",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "obvious",
@@ -3134,11 +3168,12 @@
    "word": "analogous",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "anomaly",
@@ -3194,11 +3229,12 @@
    "word": "concede",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "condone",
@@ -3214,11 +3250,12 @@
    "word": "contend",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "culminate",
@@ -3264,11 +3301,12 @@
    "word": "discern",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "disparate",
@@ -3324,11 +3362,12 @@
    "word": "enumerate",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "ephemeral",
@@ -3374,11 +3413,12 @@
    "word": "implicit",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "infer",
@@ -3574,11 +3614,12 @@
    "word": "prudent",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "quantify",
@@ -3654,11 +3695,12 @@
    "word": "speculate",
    "group": "sat-act-staple",
    "groups": [
-    "sat-act-staple"
+    "sat-act-staple",
+    "dsat-essentials"
    ],
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
-   "inApp": false
+   "inApp": true
   },
   {
    "word": "static",
@@ -3769,6 +3811,536 @@
    "tier": 3,
    "source": "SAT/ACT staple (non-AWL)",
    "inApp": false
+  },
+  {
+   "word": "abolish",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "anecdote",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "anticipate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "apprehend",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "assertion",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "bias",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "bolster",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "cause",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "challenge",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "comparable",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "comprehensive",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "compromise",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "conclusive",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "condemn",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "conform",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "consensus",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "counterclaim",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "deceptive",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "decisive",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "degrade",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "denounce",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "despondent",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "detrimental",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "discredit",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "disdain",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "dismiss",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "disparage",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "distinction",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "elaborate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "employ",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "entrenched",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "fabricate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "fluctuate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "former",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "latter",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "foster",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "frank",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "idealistic",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "innate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "irreconcilable",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "mar",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "misconception",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "outspoken",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "overlook",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "profess",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "recall",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "relate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "repudiate",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "revere",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "subjective",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "substantial",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "underscore",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
+  },
+  {
+   "word": "unfounded",
+   "group": "dsat-essentials",
+   "groups": [
+    "dsat-essentials"
+   ],
+   "tier": 1,
+   "source": "Ivy League Mentors \"Essential Vocab for the Digital SAT\" (headwords only; content original)",
+   "inApp": true
   }
  ]
 }
