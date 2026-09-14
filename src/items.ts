@@ -21,9 +21,11 @@ const pick = <T,>(arr: T[], n: number, rand: () => number) => shuffle(arr, rand)
 
 // blank out the headword in its own example sentence, tolerating inflections
 const clozeFrom = (w: Word): string | null => {
+  // match the headword and its inflections: strip a common suffix, fall back to the whole
+  // word when the stem gets too short (mar, innate), and allow y->i (qualify -> qualified)
   const stem = w.word.replace(/(ate|ise|ize|e)$/i, '');
-  if (stem.length < 4) return null;
-  const re = new RegExp(`\\b${stem}\\w*\\b`, 'i');
+  const forms = [stem.length >= 4 ? stem : w.word, w.word.replace(/y$/i, 'i')];
+  const re = new RegExp(`\\b(?:${[...new Set(forms)].join('|')})\\w*\\b`, 'i');
   return re.test(w.example) ? w.example.replace(re, '_____') : null;
 };
 
