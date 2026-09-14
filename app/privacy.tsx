@@ -7,14 +7,15 @@ export default function Privacy() {
   const r = useRouter();
   return <Screen><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
     <Text style={s.title}>Privacy Policy</Text>
-    <Text style={[s.subtitle, { marginTop: 8 }]}>Ten Vocab · Last updated September 6, 2026</Text>
+    <Text style={[s.subtitle, { marginTop: 8 }]}>Ten Vocab · Last updated September 14, 2026</Text>
     <Card style={{ marginTop: 18 }}>
       <H>THE SHORT VERSION</H>
       <P>Ten Vocab does not collect, store, or share any personal information. There are no accounts, no sign-in, no analytics, and no advertising.</P>
       <H>WHAT STAYS ON YOUR DEVICE</H>
       <P>Your study progress — which words you have seen, your answers, mastery scores, streak, and current session — is saved only on the device you are using. It is never uploaded anywhere. Deleting the app deletes this data.</P>
       <H>NETWORK USE</H>
-      <P>The iOS app makes no network requests. Pronunciation uses the speech engine built into your device.</P>
+      <P>The app makes one kind of network request, and only when you choose to. If you tap “I saw this on the SAT”, the word and the date you pick are sent to our database so that other learners can see which words have appeared on real tests. Nothing that identifies you is sent or stored — no account, no device identifier, no name, no location. Reading those counts is anonymous as well.</P>
+      <P>Pronunciation uses the speech engine built into your device.</P>
       <P>The web version is delivered by Expo Application Services. Like any website, their servers may record standard access logs, such as your IP address and browser type, solely to serve the page. Ten Vocab does not receive or use this information.</P>
       <H>CHILDREN</H>
       <P>Because no personal information is collected, none is collected from children.</P>
