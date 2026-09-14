@@ -4,7 +4,7 @@
 ## Subtitle (30)        Daily practice, in context
 
 ## Promotional text (170)
-Ten words a day, practiced in context until they stick. No accounts, no ads, nothing collected — everything stays on your phone.
+Ten words a day, practiced in context until they stick. No accounts, no ads. Your progress stays on your phone.
 
 ## Description (4000)
 Ten Vocab builds academic vocabulary the way it is actually tested: in context, ten words at a time.
