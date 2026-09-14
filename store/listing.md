@@ -3,6 +3,15 @@
 ## Name (30)            Ten Vocab
 ## Subtitle (30)        Daily practice, in context
 
+## What's New in This Version — 1.1 (4000)
+79 new words. The deck now has 199, including the words most often tested on the digital SAT, tone-and-attitude words, and the connectors (nevertheless, whereas, thereby) that SAT and ACT writing questions lean on.
+
+Mastered list. Tap the star tile on Home to see every word you have mastered, with definitions and pronunciation.
+
+Seen on the SAT. On any word card, tap "I saw this on the SAT" and pick the date. Everyone using Ten Vocab can then see how many times a word has been reported and when it was last seen. Reports are anonymous: only the word and the date are shared.
+
+Smarter practice. Wrong answers are never near-synonyms of the right one, and every word now offers all of its question formats.
+
 ## Promotional text (170)
 Ten words a day, practiced in context until they stick. No accounts, no ads. Your progress stays on your phone.
 
