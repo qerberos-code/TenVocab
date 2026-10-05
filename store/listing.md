@@ -4,7 +4,7 @@
 ## Subtitle (30)        Daily practice, in context
 
 ## What's New in This Version — 1.2 (4000)
-Scan any word list. Point the camera at a vocabulary list from class, a prep book, or a worksheet, and sweep slowly across it; Ten Vocab reads the words as you go. Or pick a photo from your library. Every word becomes a flashcard with its SAT meaning, an example sentence, and similar words, drawn from a dictionary of more than 2,500 tested words built into the app.
+Scan any word list. Point the camera at a vocabulary list from class, a prep book, or a worksheet, and sweep slowly across it; Ten Vocab reads the words as you go. Or pick a photo from your library. Every word becomes a flashcard with its SAT meaning, an example sentence, and similar words, drawn from a dictionary of nearly 3,000 tested words built into the app.
 
 Works offline. Reading and definitions happen entirely on your phone, with no internet connection needed. Nothing you scan ever leaves your device.
 
@@ -32,7 +32,7 @@ Practice questions rotate through six formats, so coming back to a word tests th
 Words you struggle with come back sooner. Words you know come back later. Your streak, mastery, and weakest words are always one tap away.
 
 SCAN ANY WORD LIST
-Have a vocabulary list from class or a prep book? Point the camera at it and sweep slowly across the page, or choose a photo, and every word becomes a flashcard with its tested meaning, an example sentence, and similar words. A dictionary of more than 2,500 SAT and ACT words is built into the app, so scanning works with no internet connection and nothing you scan leaves your phone.
+Have a vocabulary list from class or a prep book? Point the camera at it and sweep slowly across the page, or choose a photo, and every word becomes a flashcard with its tested meaning, an example sentence, and similar words. A dictionary of nearly 3,000 SAT and ACT words is built into the app, so scanning works with no internet connection and nothing you scan leaves your phone.
 
 PRIVATE BY DESIGN
 There are no accounts and no sign-in. Progress is stored only on your device. The app contains no advertising or analytics. The one thing it ever sends is optional: if you tap "I saw this on the SAT" on a word, that word and the date you choose are shared so other learners can see which words have appeared on real tests. Nothing that identifies you is sent. Camera frames, photos, and scanned decks are processed and stored only on your device.
