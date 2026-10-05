@@ -19,3 +19,7 @@ yarn-error.*
 !.env.example
 *.ipa
 *.tar.gz
+
+# native projects are generated on demand (npx expo prebuild / run:ios)
+/ios/
+/android/

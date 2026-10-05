@@ -1,0 +1,7 @@
+{
+  "name": "text-recognizer",
+  "version": "1.0.0",
+  "description": "On-device text recognition for Ten Vocab, built on Apple's Vision framework. Images never leave the phone.",
+  "main": "index.ts",
+  "private": true
+}

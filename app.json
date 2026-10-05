@@ -8,16 +8,27 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Ten Vocab uses the camera to read word lists you point it at. Images are processed on this device and never leave it."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ten Vocab reads word lists from photos you choose. Photos are processed on this device and never leave it.",
+          "cameraPermission": "Ten Vocab uses the camera to read word lists you point it at. Images are processed on this device and never leave it."
+        }
+      ],
+      "./plugins/withPodDeploymentTarget.js"
     ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.qerberos.wordwise",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      },
-      "config": {
-        "usesNonExemptEncryption": false
       }
     },
     "android": {

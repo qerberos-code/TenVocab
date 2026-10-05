@@ -14,10 +14,19 @@ A local-first SAT vocabulary coaching prototype based on the supplied project tr
 - Local persistence via AsyncStorage
 
 ## Run it
-1. Install Node.js LTS.
+1. Install Node.js 24 (`nvm use 24`).
 2. In this folder run `npm install`.
-3. Run `npm start`.
-4. Scan the QR code with Expo Go, or press `w` for web.
+3. Run `npm run ios` to build and launch the app in the iOS Simulator (needs Xcode), or
+   `npm start` then press `w` for the web version.
+
+Expo Go can no longer run this app: the Scan feature uses a small native module
+(`modules/text-recognizer`, Apple's Vision framework) so text recognition happens on the
+device and works offline. Native projects are generated on demand by `expo prebuild`; the
+`ios/` and `android/` folders are ignored by git. On the phone, use the TestFlight or App
+Store build.
+
+Scanning needs a real iOS build. On the web and in the Simulator you can still use
+"Type or paste words"; the Simulator can also read photos added to its library.
 
 ## Dependency note
 This release is aligned to Expo SDK 54, which is the SDK supported by the Expo Go build currently published on the App Store (54.0.2). Expo Go supports only one SDK at a time, so the project must match it. Expo SDK 54 uses React 19.1.0 and React Native 0.81.5, with React Native Web 0.21.0. React DOM is pinned to 19.1.0 so npm does not select a newer incompatible React DOM release.

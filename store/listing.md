@@ -3,6 +3,13 @@
 ## Name (30)            Ten Vocab
 ## Subtitle (30)        Daily practice, in context
 
+## What's New in This Version — 1.2 (4000)
+Scan any word list. Point the camera at a vocabulary list from class, a prep book, or a worksheet, and sweep slowly across it; Ten Vocab reads the words as you go. Or pick a photo from your library. Every word becomes a flashcard with its SAT meaning, an example sentence, and similar words, drawn from a dictionary of more than 2,500 tested words built into the app.
+
+Works offline. Reading and definitions happen entirely on your phone, with no internet connection needed. Nothing you scan ever leaves your device.
+
+Flashcard decks. Flip through your scanned decks, mark each card known or still learning, and review only the ones you missed. Words the dictionary does not know yet still get a card you can fill in from your notes.
+
 ## What's New in This Version — 1.1 (4000)
 79 new words. The deck now has 199, including the words most often tested on the digital SAT, tone-and-attitude words, and the connectors (nevertheless, whereas, thereby) that SAT and ACT writing questions lean on.
 
@@ -24,14 +31,17 @@ Practice questions rotate through six formats, so coming back to a word tests th
 
 Words you struggle with come back sooner. Words you know come back later. Your streak, mastery, and weakest words are always one tap away.
 
+SCAN ANY WORD LIST
+Have a vocabulary list from class or a prep book? Point the camera at it and sweep slowly across the page, or choose a photo, and every word becomes a flashcard with its tested meaning, an example sentence, and similar words. A dictionary of more than 2,500 SAT and ACT words is built into the app, so scanning works with no internet connection and nothing you scan leaves your phone.
+
 PRIVATE BY DESIGN
-There are no accounts and no sign-in. Progress is stored only on your device. The app contains no advertising or analytics. The one thing it ever sends is optional: if you tap "I saw this on the SAT" on a word, that word and the date you choose are shared so other learners can see which words have appeared on real tests. Nothing that identifies you is sent.
+There are no accounts and no sign-in. Progress is stored only on your device. The app contains no advertising or analytics. The one thing it ever sends is optional: if you tap "I saw this on the SAT" on a word, that word and the date you choose are shared so other learners can see which words have appeared on real tests. Nothing that identifies you is sent. Camera frames, photos, and scanned decks are processed and stored only on your device.
 
 ORIGINAL CONTENT
 All vocabulary, practice questions, and explanations are original. Ten Vocab does not reproduce questions from any official test. It is designed for students preparing for college admissions tests, and for anyone who wants a stronger academic vocabulary. Ten Vocab is not affiliated with, endorsed by, or sponsored by the College Board or ACT, Inc.
 
 ## Keywords (100, comma-separated, do not repeat words in the name/subtitle)
-vocabulary,words,flashcards,test prep,study,english,learn,college,exam,definitions,spaced repetition
+vocabulary,words,flashcards,test prep,study,english,learn,scan,exam,definitions,offline,dictionary
 
 ## URLs
 Support URL:         https://github.com/qerberos-code/TenVocab
@@ -45,6 +55,8 @@ Privacy Policy URL:  https://wordwise.expo.app/privacy
 ## App Privacy (nutrition label) — CHANGED for the build with "Seen on the SAT"
 Yes, we collect data → **User Content → Other User Content** → used for **App Functionality** →
 **Not linked to the user's identity** → not used for tracking. Nothing else is collected.
+1.2 Scan feature: NO change. Camera frames and photos are processed on the device and never
+transmitted, so "Photos or Videos" is not collected under Apple's definition.
 
 ## App Review Information
 Sign-in required:  NO (leave unchecked — there is no login)
