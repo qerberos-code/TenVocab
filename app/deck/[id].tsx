@@ -5,6 +5,7 @@ import * as Speech from 'expo-speech';
 import { Button, Card, Screen, colors, s } from '@/ui';
 import { canRecognizeText, showSystemDefinition } from '../../modules/text-recognizer';
 const canLookUp = canRecognizeText;   // iOS native build; Apple's sheet explains itself if a dictionary still needs downloading
+import { Confetti, Pop, haptic } from '@/fx';
 import { deleteDeck, loadDecks, updateDeck, type Card as FlashCard, type Deck } from '@/decks';
 
 const speak = (t: string) => { Speech.stop(); Speech.speak(t, { language: 'en-US', rate: 0.85 }); };
@@ -19,6 +20,9 @@ export default function DeckScreen() {
   const [flipped, setFlipped] = useState(false);
   const [mode, setMode] = useState<'study' | 'summary' | 'list'>('study');
   const [edit, setEdit] = useState<FlashCard | null>(null);
+  const [burst, setBurst] = useState(0);
+  const [toast, setToast] = useState('');
+  const say = (m: string) => { setToast(m); setTimeout(() => setToast(''), 1300); };
 
   useEffect(() => { loadDecks().then(all => { const d = all.find(x => x.id === id) ?? null; setDeck(d); if (d) setOrder(d.cards.map(c => c.id)); }); }, [id]);
   const card = useMemo(() => deck?.cards.find(c => c.id === order[i]) ?? null, [deck, order, i]);
@@ -28,7 +32,9 @@ export default function DeckScreen() {
     if (!deck || !card) return;
     persist({ ...deck, cards: deck.cards.map(c => c.id === card.id ? { ...c, known } : c) });
     setFlipped(false);
-    if (i + 1 < order.length) setI(i + 1); else setMode('summary');
+    if (known) { setBurst(b => b + 1); haptic.success(); say(['🎉 Got it!', '🔥 Nice one!', '🙌 Locked in!', '💥 Boom!'][Math.floor(Math.random() * 4)]); }
+    else { haptic.soft(); say(['💪 Back in the pile. You will get it!', '🌱 Still growing!', '🧩 Almost there!'][Math.floor(Math.random() * 3)]); }
+    if (i + 1 < order.length) setI(i + 1); else { setMode('summary'); if (known && !deck.cards.some(c => c.id !== card.id && !c.known)) setBurst(b => b + 100); }
   };
   const restart = (ids: string[]) => { setOrder(ids); setI(0); setFlipped(false); setMode('study'); };
   const remove = () => Alert.alert('Delete this deck?', 'The flashcards in it will be removed from this phone.', [{ text: 'Cancel', style: 'cancel' }, { text: 'Delete', style: 'destructive', onPress: async () => { await deleteDeck(deck!.id); r.replace('/scan'); } }]);
@@ -63,12 +69,13 @@ export default function DeckScreen() {
 
   if (mode === 'summary' || !card) return <Screen><ScrollView contentContainerStyle={s.scroll}>
     <Text style={{ fontSize: 13, fontWeight: '800', color: colors.blue }}>{deck.name.toUpperCase()}</Text>
-    <Text style={[s.title, { marginTop: 8 }]}>Pass complete</Text>
+    <Pop><Text style={{ fontSize: 64, marginTop: 8 }}>{missed.length === 0 ? '🏆' : deck.cards.length - missed.length >= missed.length ? '🔥' : '💪'}</Text></Pop>
+    <Text style={[s.title, { marginTop: 4 }]}>{missed.length === 0 ? 'Perfect pass!' : 'Pass complete'}</Text>
     <Card style={{ marginTop: 18 }}>
       <Text style={{ fontSize: 12, color: colors.muted, fontWeight: '700' }}>KNOWN</Text>
       <Text style={{ fontSize: 34, fontWeight: '800', marginTop: 6 }}>{deck.cards.length - missed.length} / {deck.cards.length}</Text>
       <View style={{ height: 12, borderRadius: 8, backgroundColor: '#ECEEF3', marginTop: 10, overflow: 'hidden' }}><View style={{ height: 12, width: `${deck.cards.length ? Math.round((deck.cards.length - missed.length) / deck.cards.length * 100) : 0}%`, backgroundColor: colors.green }} /></View>
-      {missed.length ? <Text style={[s.subtitle, { marginTop: 12 }]}>Still learning: {missed.map(c => c.word).join(', ')}</Text> : <Text style={[s.subtitle, { marginTop: 12 }]}>Every card in this deck is marked known. Come back tomorrow and check they stuck.</Text>}
+      {missed.length ? <Text style={[s.subtitle, { marginTop: 12 }]}>Still learning: {missed.map(c => c.word).join(', ')}. Those are the ones leveling you up next. 💪</Text> : <Text style={[s.subtitle, { marginTop: 12 }]}>Every card in this deck is marked known. 🎉 Come back tomorrow and check they stuck.</Text>}
     </Card>
     <View style={{ marginTop: 18, gap: 10 }}>
       {missed.length ? <Button label={`REVIEW ${missed.length} MISSED`} onPress={() => restart(missed.map(c => c.id))} /> : null}
@@ -76,7 +83,7 @@ export default function DeckScreen() {
       <Button label="ALL CARDS" secondary onPress={() => setMode('list')} />
       <Button label="BACK TO SCAN" secondary onPress={() => r.replace('/scan')} />
     </View>
-  </ScrollView></Screen>;
+  </ScrollView><Confetti burst={burst} size="big" /></Screen>;
 
   return <Screen><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
     <View style={s.row}>
@@ -94,6 +101,7 @@ export default function DeckScreen() {
           <Text style={{ fontSize: 13, fontWeight: '800', color: colors.muted }}>{card.word.toUpperCase()}{card.partOfSpeech ? ` · ${card.partOfSpeech}` : ''}</Text>
           {card.definition ? <>
             <Text style={{ fontSize: 24, fontWeight: '700', lineHeight: 32, marginTop: 14 }}>{card.definition}</Text>
+            {card.source === 'wordnet' ? <Text style={{ fontSize: 12, color: colors.muted, fontWeight: '700', marginTop: 8 }}>GENERAL MEANING · not an SAT-specific sense</Text> : null}
             {card.altDefinition ? <><Text style={lbl2}>ALSO MEANS</Text><Text style={{ fontSize: 17, fontWeight: '600', lineHeight: 24, marginTop: 6 }}>{card.altDefinition}</Text></> : null}
             {card.example ? <><Text style={lbl2}>EXAMPLE</Text><Text style={{ fontSize: 17, lineHeight: 25, marginTop: 6 }}>{card.example}</Text></> : null}
             {card.synonyms.length ? <><Text style={lbl2}>SIMILAR WORDS</Text><Text style={{ fontSize: 16, marginTop: 6 }}>{card.synonyms.join(' • ')}</Text></> : null}
@@ -109,10 +117,11 @@ export default function DeckScreen() {
       </Card>
     </Pressable>
     <View style={{ marginTop: 14, gap: 10 }}>
-      <Button label="GOT IT" onPress={() => answer(true)} />
-      <Button label="STILL LEARNING" secondary onPress={() => answer(false)} />
+      <Button label="GOT IT 🎉" onPress={() => answer(true)} />
+      <Button label="STILL LEARNING 💪" secondary onPress={() => answer(false)} />
+      {toast ? <Text style={{ textAlign: 'center', fontSize: 16, fontWeight: '800', color: colors.ink, marginTop: 4 }}>{toast}</Text> : null}
     </View>
-  </ScrollView></Screen>;
+  </ScrollView><Confetti burst={burst} size="pop" /></Screen>;
 }
 const lbl = { fontSize: 12, color: colors.muted, fontWeight: '800' as const };
 const lbl2 = { fontSize: 12, color: colors.muted, fontWeight: '800' as const, marginTop: 20 };

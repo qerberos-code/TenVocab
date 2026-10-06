@@ -9,7 +9,7 @@ export type Card = {
   example: string;
   synonyms: string[];
   altDefinition?: string;
-  source: 'deck' | 'dictionary' | 'custom';
+  source: 'deck' | 'dictionary' | 'wordnet' | 'custom';
   known: boolean;          // last answer in the flashcard viewer
 };
 export type Deck = { id: string; name: string; createdAt: string; cards: Card[] };

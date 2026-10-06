@@ -4,9 +4,11 @@
 ## Subtitle (30)        Daily practice, in context
 
 ## What's New in This Version — 1.2 (4000)
-Scan words into flashcards. Point the camera at a word in a book or worksheet, zoom in, and Ten Vocab reads it and shows its meaning; tap Add and move to the next one. Or pick a photo of a whole list from your library. Every word becomes a flashcard with its SAT meaning, an example sentence, and similar words, drawn from a dictionary of nearly 3,000 tested words built into the app.
+Scan words into flashcards. Point the camera at a word in a book or worksheet, zoom in, and Ten Vocab reads it and shows its meaning; tap Add and move to the next one. Or pick a photo of a whole list from your library. Every word becomes a flashcard with its meaning, similar words, and an example sentence, drawn from a dictionary of nearly 3,000 SAT and ACT words plus a general English dictionary of more than 75,000 words, all built into the app.
 
 Works offline. Reading and definitions happen entirely on your phone, with no internet connection needed. Nothing you scan ever leaves your device.
+
+Celebrations. Confetti, combos and level-up badges when you get words right, and friendly nudges (never a red X) when you do not, so a rough session still ends with a win.
 
 Flashcard decks. Flip through your scanned decks, mark each card known or still learning, and review only the ones you missed. Words the dictionary does not know yet still get a card you can fill in from your notes.
 
@@ -32,7 +34,7 @@ Practice questions rotate through six formats, so coming back to a word tests th
 Words you struggle with come back sooner. Words you know come back later. Your streak, mastery, and weakest words are always one tap away.
 
 SCAN ANY WORD LIST
-Have a vocabulary list from class or a prep book? Aim the camera at a word and tap Add, or choose a photo of the whole page, and every word becomes a flashcard with its tested meaning, an example sentence, and similar words. A dictionary of nearly 3,000 SAT and ACT words is built into the app, so scanning works with no internet connection and nothing you scan leaves your phone.
+Have a vocabulary list from class or a prep book? Aim the camera at a word and tap Add, or choose a photo of the whole page, and every word becomes a flashcard with its tested meaning, an example sentence, and similar words. A dictionary of nearly 3,000 SAT and ACT words, plus a general English dictionary of more than 75,000 words, is built into the app, so scanning works with no internet connection and nothing you scan leaves your phone.
 
 PRIVATE BY DESIGN
 There are no accounts and no sign-in. Progress is stored only on your device. The app contains no advertising or analytics. The one thing it ever sends is optional: if you tap "I saw this on the SAT" on a word, that word and the date you choose are shared so other learners can see which words have appeared on real tests. Nothing that identifies you is sent. Camera frames, photos, and scanned decks are processed and stored only on your device.

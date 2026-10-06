@@ -8,8 +8,8 @@ import { recognizeWords, showSystemDefinition } from '../modules/text-recognizer
 import { lookup, normalize, type Candidate } from '@/lexicon';
 import { setPending } from '@/scanSession';
 
-const INTERVAL_MS = 700;         // how often a frame is read while aiming
-const TARGET = { dx: 0.28, dy: 0.09 };   // how far from the image center a word may sit and still count (normalized)
+const INTERVAL_MS = 600;         // how often a frame is read while aiming (the next waits for the last to finish)
+const TARGET = { dx: 0.36, dy: 0.14 };   // how far from the image center a word may sit and still count (normalized)
 const ZOOM_STEPS = [0, 0.12, 0.25, 0.4, 0.6];
 
 /**
@@ -23,6 +23,7 @@ export default function ScanLive() {
   const cam = useRef<CameraView | null>(null);
   const [zoomIdx, setZoomIdx] = useState(0);
   const [aim, setAim] = useState<Candidate | null>(null);   // word under the target right now
+  const [seen, setSeen] = useState<string[] | null>(null);     // nearest words the camera can read, shown when none is in the box
   const [picked, setPicked] = useState<Candidate[]>([]);
   const pickedRef = useRef<Map<string, Candidate>>(new Map());
   const busy = useRef(false);
@@ -41,18 +42,21 @@ export default function ScanLive() {
     if (busy.current || !cam.current) return;
     busy.current = true;
     try {
-      const pic = await cam.current.takePictureAsync({ quality: 0.5, skipProcessing: true, shutterSound: false });
+      const pic = await cam.current.takePictureAsync({ quality: 0.7, skipProcessing: true, shutterSound: false });
       if (!pic?.uri) return;
-      const words = await recognizeWords(pic.uri, true);
+      const words = await recognizeWords(pic.uri, false);
       let best: { d: number; text: string } | null = null;
+      const nearby: { d: number; text: string }[] = [];
       for (const w of words) {
         const t = normalize(w.text);
         if (t.length < 3 || !/^[a-z][a-z'-]*$/.test(t)) continue;
         const cx = w.x + w.w / 2 - 0.5, cy = w.y + w.h / 2 - 0.5;
+        nearby.push({ d: Math.hypot(cx, cy), text: t });
         if (Math.abs(cx) > TARGET.dx || Math.abs(cy) > TARGET.dy) continue;
         const d = Math.hypot(cx / TARGET.dx, cy / TARGET.dy);
         if (!best || d < best.d) best = { d, text: t };
       }
+      setSeen(nearby.sort((a, b) => a.d - b.d).slice(0, 3).map(x => x.text));
       if (best) {
         missStreak.current = 0;
         const e = lookup(best.text);
@@ -107,9 +111,11 @@ export default function ScanLive() {
         </Pressable>
         {aim.entry ? <>
           <Text style={st.def}>{aim.entry.partOfSpeech} · {aim.entry.definition}</Text>
+          {aim.entry.example ? <Text style={st.ex}>“{aim.entry.example}”</Text> : null}
           {aim.entry.synonyms.length ? <Text style={st.syn}>Similar: {aim.entry.synonyms.join(' • ')}</Text> : null}
+          {aim.entry.source === 'wordnet' ? <Text style={st.gen}>General meaning, not SAT-specific</Text> : null}
         </> : <>
-          <Text style={st.def}>Not in the Ten Vocab SAT dictionary yet.</Text>
+          <Text style={st.def}>No dictionary entry on this phone for this word.</Text>
           {canLookUp ? <Pressable onPress={() => showSystemDefinition(aim.shown).catch(() => {})} hitSlop={8} style={({ pressed }) => [{ marginTop: 8 }, pressed && { opacity: .6 }]}><Text style={st.look}>Look up in iPhone dictionary ›</Text></Pressable> : null}
         </>}
       </View> : <Text style={st.hint}>Center one word in the box. Zoom in if the print is small, and hold still for a moment.</Text>}
@@ -135,6 +141,8 @@ const st = StyleSheet.create({
   bottom: { position: 'absolute', left: 0, right: 0, bottom: 0, padding: 20, paddingBottom: 40, backgroundColor: 'rgba(10,12,16,0.86)', gap: 14 },
   word: { color: '#fff', fontSize: 30, fontWeight: '900', letterSpacing: 0.5 },
   def: { color: '#D5D8DF', fontSize: 15, lineHeight: 21, marginTop: 4 },
+  ex: { color: '#C3C8D2', fontSize: 14, lineHeight: 20, marginTop: 6, fontStyle: 'italic' },
+  gen: { color: '#8A91A0', fontSize: 12, fontWeight: '700', marginTop: 6 },
   syn: { color: '#9FB4FF', fontSize: 14, lineHeight: 20, marginTop: 6 },
   look: { color: '#7FA2FF', fontSize: 15, fontWeight: '800' },
   hint: { color: '#E6E7EB', fontSize: 14, lineHeight: 20 },
