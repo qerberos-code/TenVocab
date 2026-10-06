@@ -3,6 +3,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { Alert, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import * as Speech from 'expo-speech';
 import { Button, Card, Screen, colors, s } from '@/ui';
+import { canRecognizeText, showSystemDefinition } from '../../modules/text-recognizer';
+const canLookUp = canRecognizeText;   // iOS native build; Apple's sheet explains itself if a dictionary still needs downloading
 import { deleteDeck, loadDecks, updateDeck, type Card as FlashCard, type Deck } from '@/decks';
 
 const speak = (t: string) => { Speech.stop(); Speech.speak(t, { language: 'en-US', rate: 0.85 }); };
@@ -98,7 +100,10 @@ export default function DeckScreen() {
           </> : <>
             <Text style={{ fontSize: 20, fontWeight: '700', lineHeight: 28, marginTop: 14 }}>This word is not in the Ten Vocab dictionary yet.</Text>
             <Text style={[s.subtitle, { marginTop: 10 }]}>Add the meaning from your class notes so the card is complete.</Text>
-            <View style={{ marginTop: 16 }}><Button label="ADD A DEFINITION" secondary onPress={() => setEdit(card)} /></View>
+            <View style={{ marginTop: 16, gap: 10 }}>
+              {canLookUp ? <Button label="LOOK UP IN IPHONE DICTIONARY" onPress={() => showSystemDefinition(card.word).catch(() => {})} /> : null}
+              <Button label="ADD A DEFINITION" secondary onPress={() => setEdit(card)} />
+            </View>
           </>}
         </View>}
       </Card>
