@@ -94,6 +94,7 @@ export default function DeckScreen() {
           <Text style={{ fontSize: 13, fontWeight: '800', color: colors.muted }}>{card.word.toUpperCase()}{card.partOfSpeech ? ` · ${card.partOfSpeech}` : ''}</Text>
           {card.definition ? <>
             <Text style={{ fontSize: 24, fontWeight: '700', lineHeight: 32, marginTop: 14 }}>{card.definition}</Text>
+            {card.source === 'wordnet' ? <Text style={{ fontSize: 12, color: colors.muted, fontWeight: '700', marginTop: 8 }}>GENERAL MEANING · not an SAT-specific sense</Text> : null}
             {card.altDefinition ? <><Text style={lbl2}>ALSO MEANS</Text><Text style={{ fontSize: 17, fontWeight: '600', lineHeight: 24, marginTop: 6 }}>{card.altDefinition}</Text></> : null}
             {card.example ? <><Text style={lbl2}>EXAMPLE</Text><Text style={{ fontSize: 17, lineHeight: 25, marginTop: 6 }}>{card.example}</Text></> : null}
             {card.synonyms.length ? <><Text style={lbl2}>SIMILAR WORDS</Text><Text style={{ fontSize: 16, marginTop: 6 }}>{card.synonyms.join(' • ')}</Text></> : null}

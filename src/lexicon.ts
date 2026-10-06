@@ -1,5 +1,6 @@
 import { VOCAB } from './vocab';
 import DICTIONARY from '../data/lexicon.json';
+import { loadShard } from './wordnetShards';
 
 // One entry a flashcard can be built from. Everything here ships inside the app,
 // so lookups work with no connection at all.
@@ -10,7 +11,7 @@ export type Entry = {
   example: string;
   synonyms: string[];
   altDefinition?: string;  // second tested sense, when a word has one
-  source: 'deck' | 'dictionary';
+  source: 'deck' | 'dictionary' | 'wordnet';   // wordnet = general-English fallback, not SAT-specific
 };
 
 type DictRow = { w: string; p: string; d: string; e: string; s: string[]; a?: string };
@@ -45,12 +46,32 @@ function* lemmas(t: string) {
   if (t.endsWith('er') || t.endsWith('or')) yield t.slice(0, -2);
 }
 
-/** Find the entry for a token, tolerating plurals, tenses and OCR punctuation. */
-export function lookup(token: string): Entry | null {
+/** SAT/ACT entry for a token (authored deck first, then the bundled SAT dictionary). */
+export function lookupSat(token: string): Entry | null {
   const t = normalize(token);
   if (t.length < 3) return null;
   for (const l of lemmas(t)) { const hit = INDEX.get(l); if (hit) return hit; }
   return null;
+}
+
+// General-English fallback: an offline subset of Princeton WordNet, split into per-letter
+// files so only the letters a scan touches are loaded. See data/WORDNET-LICENSE.txt.
+const POS_OF: Record<string, string> = { noun: 'noun', verb: 'verb', adjective: 'adjective', adverb: 'adverb' };
+function fromWordNet(t: string): Entry | null {
+  const shard = loadShard(t[0]);
+  if (!shard) return null;
+  for (const l of lemmas(t)) {
+    const r = shard[l];
+    if (r) return { word: l, partOfSpeech: POS_OF[r[0]] ?? r[0], definition: r[1], example: r[2], synonyms: r[3] ? r[3].split(',') : [], altDefinition: r[4] || undefined, source: 'wordnet' };
+  }
+  return null;
+}
+
+/** Best available entry: the SAT dictionary first, then general English. Tolerates plurals, tenses and OCR punctuation. */
+export function lookup(token: string): Entry | null {
+  const t = normalize(token);
+  if (t.length < 3) return null;
+  return lookupSat(t) ?? fromWordNet(t);
 }
 
 // Words that appear on vocabulary worksheets but are never the vocabulary.
@@ -73,7 +94,7 @@ export function extractCandidates(lines: string[]): Candidate[] {
     let hit = false;
     for (const tok of tokens) {
       if (tok.length < 3 || NOISE.has(tok)) continue;
-      const e = lookup(tok);
+      const e = lookupSat(tok);
       if (e) { hit = true; push({ key: e.word.toLowerCase(), shown: e.word, entry: e }); }
     }
     if (hit) continue;
@@ -81,7 +102,7 @@ export function extractCandidates(lines: string[]): Candidate[] {
     // Prose lines (long, no number or bullet) are skipped so sentences do not become cards.
     const listLike = tokens.length <= 6 || /^\s*(\d+[.)]?|[-•*·])\s/.test(raw);
     const first = tokens[0];
-    if (listLike && first && first.length >= 4 && /^[a-z][a-z'-]*$/.test(first) && !NOISE.has(first)) push({ key: first, shown: first, entry: null });
+    if (listLike && first && first.length >= 4 && /^[a-z][a-z'-]*$/.test(first) && !NOISE.has(first)) { const e = lookup(first); push({ key: e ? e.word.toLowerCase() : first, shown: e ? e.word : first, entry: e }); }
   }
   return out;
 }

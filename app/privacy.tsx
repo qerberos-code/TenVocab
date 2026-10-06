@@ -16,7 +16,7 @@ export default function Privacy() {
       <H>NETWORK USE</H>
       <P>The app makes one kind of network request, and only when you choose to. If you tap “I saw this on the SAT”, the word and the date you pick are sent to our database so that other learners can see which words have appeared on real tests. Nothing that identifies you is sent or stored — no account, no device identifier, no name, no location. Reading those counts is anonymous as well.</P>
       <H>SCANNING WORD LISTS</H>
-      <P>The Scan feature reads words from your camera or from photos you choose. All of that reading happens on your device, using the text-recognition engine built into iOS. Camera frames and photos are never uploaded, and the flashcard decks you make from them are stored only on your device. Scanning works with no internet connection.</P>
+      <P>The Scan feature reads words from your camera or from photos you choose. All of that reading happens on your device, using the text-recognition engine built into iOS. Camera frames and photos are never uploaded, and the flashcard decks you make from them are stored only on your device. Scanning works with no internet connection. The dictionaries used to look words up are stored in the app itself.</P>
       <P>Pronunciation uses the speech engine built into your device.</P>
       <P>The web version is delivered by Expo Application Services. Like any website, their servers may record standard access logs, such as your IP address and browser type, solely to serve the page. Ten Vocab does not receive or use this information.</P>
       <H>CHILDREN</H>
