@@ -8,6 +8,8 @@ Scan words into flashcards. Point the camera at a word in a book or worksheet, z
 
 Works offline. Reading and definitions happen entirely on your phone, with no internet connection needed. Nothing you scan ever leaves your device.
 
+Celebrations. Confetti, combos and level-up badges when you get words right, and friendly nudges (never a red X) when you do not, so a rough session still ends with a win.
+
 Flashcard decks. Flip through your scanned decks, mark each card known or still learning, and review only the ones you missed. Words the dictionary does not know yet still get a card you can fill in from your notes.
 
 ## What's New in This Version — 1.1 (4000)
