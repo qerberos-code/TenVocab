@@ -34,12 +34,12 @@ export default function Scan() {
   return <Screen><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
     <Text style={{ fontSize: 13, fontWeight: '800', color: colors.blue }}>TEN VOCAB</Text>
     <Text style={[s.title, { marginTop: 8 }]}>Scan a word list</Text>
-    <Text style={[s.subtitle, { marginTop: 8 }]}>Point the camera at a vocabulary list, or pick a photo of one. Every word becomes a flashcard with its SAT meaning and an example sentence. Reading happens on this phone, so it works with no internet.</Text>
+    <Text style={[s.subtitle, { marginTop: 8 }]}>Aim the camera at one word at a time, or pick a photo of a whole list. Every word becomes a flashcard with its SAT meaning and an example sentence. Reading happens on this phone, so it works with no internet.</Text>
 
     <Card style={{ marginTop: 22, gap: 10 }}>
       {busy ? <View style={{ alignItems: 'center', paddingVertical: 12, gap: 10 }}><ActivityIndicator color={colors.blue} /><Text style={s.subtitle}>{busy}</Text></View> : <>
         {canRecognizeText ? <>
-          <Button label="LIVE SCAN WITH CAMERA" onPress={() => r.push('/scan-live')} />
+          <Button label="POINT CAMERA AT A WORD" onPress={() => r.push('/scan-live')} />
           <Button label="FROM A PHOTO" secondary onPress={fromPhotos} />
         </> : <Text style={[s.subtitle, { marginBottom: 4 }]}>{Platform.OS === 'web' ? 'Camera and photo scanning are available in the iPhone app.' : 'Camera and photo scanning need the Ten Vocab app from the App Store or TestFlight, not Expo Go.'}</Text>}
         <Button label="TYPE OR PASTE WORDS" secondary onPress={() => r.push('/scan-paste')} />

@@ -41,6 +41,40 @@ public class TextRecognizerModule: Module {
         catch { promise.reject("E_VISION", error.localizedDescription) }
       }
     }
+
+    // recognizeWords(uri, fast) -> [{ text, x, y, w, h }] for every word, with the box
+    // normalized to the image (0...1, origin top-left). Lets the app pick the word under
+    // an on-screen target instead of taking everything in view.
+    AsyncFunction("recognizeWords") { (uri: String, fast: Bool, promise: Promise) in
+      guard let url = URL(string: uri) ?? URL(fileURLWithPath: uri) as URL?,
+            let data = try? Data(contentsOf: url),
+            let image = UIImage(data: data),
+            let cgImage = image.cgImage else {
+        promise.reject("E_IMAGE", "Could not load the image at \(uri)")
+        return
+      }
+      let request = VNRecognizeTextRequest { request, error in
+        if let error = error { promise.reject("E_VISION", error.localizedDescription); return }
+        var words: [[String: Any]] = []
+        for obs in (request.results as? [VNRecognizedTextObservation]) ?? [] {
+          guard let cand = obs.topCandidates(1).first else { continue }
+          let s = cand.string
+          s.enumerateSubstrings(in: s.startIndex..<s.endIndex, options: .byWords) { sub, range, _, _ in
+            guard let sub = sub, let box = try? cand.boundingBox(for: range)?.boundingBox else { return }
+            words.append(["text": sub, "x": box.minX, "y": 1 - box.maxY, "w": box.width, "h": box.height])
+          }
+        }
+        promise.resolve(words)
+      }
+      request.recognitionLevel = fast ? .fast : .accurate
+      request.usesLanguageCorrection = !fast
+      request.recognitionLanguages = ["en-US"]
+      let handler = VNImageRequestHandler(cgImage: cgImage, orientation: Self.orientation(image.imageOrientation), options: [:])
+      DispatchQueue.global(qos: .userInitiated).async {
+        do { try handler.perform([request]) }
+        catch { promise.reject("E_VISION", error.localizedDescription) }
+      }
+    }
   }
 
   private static func orientation(_ o: UIImage.Orientation) -> CGImagePropertyOrientation {
