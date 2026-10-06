@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { CameraView, useCameraPermissions } from 'expo-camera';
 import { Button, colors } from '@/ui';
-import { recognizeWords } from '../modules/text-recognizer';
+import * as Speech from 'expo-speech';
+import { recognizeWords, showSystemDefinition } from '../modules/text-recognizer';
 import { lookup, normalize, type Candidate } from '@/lexicon';
 import { setPending } from '@/scanSession';
 
@@ -69,6 +70,8 @@ export default function ScanLive() {
   const remove = (k: string) => { pickedRef.current.delete(k); setPicked([...pickedRef.current.values()]); };
   const done = () => { if (timer.current) clearInterval(timer.current); setPending([...pickedRef.current.values()]); r.replace('/scan-review'); };
   const already = !!aim && pickedRef.current.has(aim.key);
+  const speak = (w: string) => { Speech.stop(); Speech.speak(w, { language: 'en-US', rate: 0.85 }); };
+  const canLookUp = !!aim && !aim.entry;
 
   if (!perm) return <View style={st.root} />;
   if (!perm.granted) return <View style={[st.root, { padding: 24, justifyContent: 'center', gap: 14 }]}>
@@ -99,8 +102,16 @@ export default function ScanLive() {
 
     <View style={st.bottom}>
       {aim ? <View>
-        <Text style={st.word}>{aim.shown}</Text>
-        <Text style={st.def} numberOfLines={2}>{aim.entry ? `${aim.entry.partOfSpeech} · ${aim.entry.definition}` : 'Not in the dictionary yet. You can add a meaning on the card.'}</Text>
+        <Pressable onPress={() => speak(aim.shown)} accessibilityRole="button" accessibilityLabel={`Pronounce ${aim.shown}`} hitSlop={8} style={({ pressed }) => [{ flexDirection: 'row', alignItems: 'center', gap: 12 }, pressed && { opacity: .6 }]}>
+          <Text style={st.word}>{aim.shown}</Text><Text style={{ fontSize: 24 }}>🔊</Text>
+        </Pressable>
+        {aim.entry ? <>
+          <Text style={st.def}>{aim.entry.partOfSpeech} · {aim.entry.definition}</Text>
+          {aim.entry.synonyms.length ? <Text style={st.syn}>Similar: {aim.entry.synonyms.join(' • ')}</Text> : null}
+        </> : <>
+          <Text style={st.def}>Not in the Ten Vocab SAT dictionary yet.</Text>
+          {canLookUp ? <Pressable onPress={() => showSystemDefinition(aim.shown).catch(() => {})} hitSlop={8} style={({ pressed }) => [{ marginTop: 8 }, pressed && { opacity: .6 }]}><Text style={st.look}>Look up in iPhone dictionary ›</Text></Pressable> : null}
+        </>}
       </View> : <Text style={st.hint}>Center one word in the box. Zoom in if the print is small, and hold still for a moment.</Text>}
       {picked.length ? <View style={st.chips}>{picked.slice(-12).map(c => <Pressable key={c.key} onPress={() => remove(c.key)} hitSlop={6} style={[st.chip, !c.entry && st.chipUnknown]}><Text style={st.chipText}>{c.shown} ✕</Text></Pressable>)}</View> : null}
       <View style={{ flexDirection: 'row', gap: 10 }}>
@@ -124,6 +135,8 @@ const st = StyleSheet.create({
   bottom: { position: 'absolute', left: 0, right: 0, bottom: 0, padding: 20, paddingBottom: 40, backgroundColor: 'rgba(10,12,16,0.86)', gap: 14 },
   word: { color: '#fff', fontSize: 30, fontWeight: '900', letterSpacing: 0.5 },
   def: { color: '#D5D8DF', fontSize: 15, lineHeight: 21, marginTop: 4 },
+  syn: { color: '#9FB4FF', fontSize: 14, lineHeight: 20, marginTop: 6 },
+  look: { color: '#7FA2FF', fontSize: 15, fontWeight: '800' },
   hint: { color: '#E6E7EB', fontSize: 14, lineHeight: 20 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
   chip: { paddingHorizontal: 10, paddingVertical: 5, borderRadius: 999, backgroundColor: colors.blue },

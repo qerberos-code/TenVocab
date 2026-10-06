@@ -75,6 +75,21 @@ public class TextRecognizerModule: Module {
         catch { promise.reject("E_VISION", error.localizedDescription) }
       }
     }
+
+    // The iPhone's own dictionary (Settings → General → Dictionary), for words outside
+    // Ten Vocab's SAT dictionary. Works offline once a dictionary is downloaded.
+    Function("hasSystemDefinition") { (term: String) -> Bool in
+      UIReferenceLibraryViewController.dictionaryHasDefinition(forTerm: term)
+    }
+    AsyncFunction("showSystemDefinition") { (term: String, promise: Promise) in
+      DispatchQueue.main.async {
+        let scene = UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }.first { $0.activationState == .foregroundActive }
+        var top = scene?.windows.first(where: { $0.isKeyWindow })?.rootViewController
+        while let next = top?.presentedViewController { top = next }
+        guard let vc = top else { promise.reject("E_NO_VC", "No view controller to present from"); return }
+        vc.present(UIReferenceLibraryViewController(term: term), animated: true) { promise.resolve(nil) }
+      }
+    }
   }
 
   private static func orientation(_ o: UIImage.Orientation) -> CGImagePropertyOrientation {
